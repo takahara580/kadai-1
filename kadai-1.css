@@ -34,18 +34,21 @@ main {
   height: 150px;
   background-image: url(img/flow01.png);
   background-size: cover;
+  background-position: center
 }
 
 .box-img2 {
   height: 150px;
   background-image: url(img/flow02.png);
   background-size: cover;
+  background-position: center
 }
 
 .box-img3 {
   height: 150px;
   background-image: url(img/flow03.png);
   background-size: cover;
+  background-position: center
 }
 
 .step- {
@@ -71,3 +74,16 @@ footer {
   background-color: #aaaaaa
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  .box1 {
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    margin-right:  5%;
+  }
+}
